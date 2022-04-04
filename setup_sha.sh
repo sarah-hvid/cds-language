@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 pip install --upgrade pip
-pip install spacy tqdm spacytextblob vaderSentiment networkx
+pip install spacy tqdm spacytextblob vaderSentiment networkx scikit-learn tensorflow
 python -m spacy download en_core_web_sm
 
 cd cds-lang
